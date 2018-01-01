@@ -25,6 +25,5 @@ module.exports = (src, done) => {
 
   ast = csstree.fromPlainObject(astObj)
   src = importstr + csstree.translate(ast)
-  console.log(src)
   done(src)
 }
