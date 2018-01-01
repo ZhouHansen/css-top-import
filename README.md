@@ -1,7 +1,7 @@
 # css-top-import [![stability][0]][1]
  [![npm version][2]][3] [![downloads][4]][5]
  ![travis build][6]
- 
+
 put `@import url(...)` to the top of css
 
 ## usage
@@ -21,11 +21,11 @@ pre {
 ```
 
 ```js
-  // run
-  var cssTopImport = require('css-top-import')
-  cssTopImport(src, result => {
-    console.log(result)
-  })
+// run
+var cssTopImport = require('css-top-import')
+cssTopImport(src, result => {
+  console.log(result)
+})
 ```
 
 
@@ -45,9 +45,9 @@ pre {
 
 ## api
 ### cssTopImport(src, done)
-###### src
+#### src
 css source
-###### done(result)
+#### done(result)
 called with the compiled css
 
 ## why
