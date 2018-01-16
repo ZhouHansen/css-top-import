@@ -24,6 +24,6 @@ module.exports = (src, done) => {
   })
 
   ast = csstree.fromPlainObject(astObj)
-  src = importstr + csstree.translate(ast)
+  src = importstr + csstree.generate(ast)
   done(src)
 }
